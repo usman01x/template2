@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.off{
+    width: 100%;
+    height: 30px;
+    background-color: #EA580C;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(43, 1, 110);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 80px;
+}
+
+.stride{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stride p {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.stride > i  {
+    padding: 11px 9px;
+    background-color: #EA580C;
+    box-sizing: content-box;
+    border-radius: 10px;
+    color: white;
+}
+
+.nav ul li{
+    display: inline;
+}
+
+.nav ul li a{
+    padding: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+.nav .icons{
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+.nav > .icons i{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nav ul li a:hover{
+    color: #EA580C;
+}
+
+.nav > .icons i:hover{
+    background-color: blue;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.background{
+    width: 100%;
+    height: 800px;
+    background-image: url('../image/fd1afdaf4d1ab5c1bd8de257d285513b.jpg');
+}
+
+.background{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 30px 60px;
+}
+
+.stepinto{
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.stepinto >label{
+    padding: 10px;
+    color: black;
+    background-color: #ea5a0c2f;
+    box-sizing: content-box;
+    border-radius: 100px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.stepinto >h1{
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+}
+
+.stepinto >h1 + h1{
+    font-weight: 900;
+    color: #EA580C;
+    font-size: 60px;
+    margin-top: -20px;
+}
+
+.stepinto >p{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.shoee{
+    width: 610px;
+    height: 600px;
+    background-color: aqua;
+    position: relative;
+}
+
+.shoe{
+    width: 610px;
+    height: 400px;
+    animation-name: NO;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    margin-top: 100px;
+}
+
+@keyframes NO{
+    from{
+        transform:translateY(-10px) rotate(-8deg);
+    }
+
+    to{
+        transform:translateY(10px) rotate(-8deg);
+    }
+}
+
+.button{
+    width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.shop span{
+    padding: 15px 40px;
+    background-color: #EA580C;
+    border-radius: 30px;
+
+}
+
+.browse span{
+    padding: 15px 40px;
+    border: 3px solid gray;
+    border-radius: 30px;
+}
+
+.offer{
+    position: absolute;
+    right:140px;
+    top: 120px;
+}
+
+.offer p{
+    padding: 15px;
+    box-sizing: content-box;
+    background-color: #EA580C;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 5px 20px #EA580C;
+}
+
+.offer > P > span{
+    font-size: 30px;
+}
+
+.free{
+    width: 180px;
+    height: 70px;
+    padding-inline: 10px;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.068);
+    position: absolute;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.yes{
+    width: 18px;
+    height: 18px;
+    padding: 14px;
+    background-color: rgba(0, 128, 0, 0.384);
+    backdrop-filter: blur(13px);
+    border-radius: 100%;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yes i{
+    color: green;
+    font-size: 15px;
+}
+
+.s75 > p{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.s75 p + p{
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.easy{
+    width: 180px;
+    height: 70px;
+    padding-inline: 10px;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.068);
+    position: absolute;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: -30px;
+    top: 316px;
+    z-index: 1;
+}
+
+
+.yes i{
+    color: #EA580C;
+    font-size: 15px;
+}
